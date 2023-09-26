@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="images">
+
+        </div>
+    </div>
+
+
+    <script type="module">
+        
+        import { popularity, localPopularity } from './popularity/popularity.js';
+
+        // Function to fetch JSON data from a file and parse it into a JavaScript object
+        function fetchJSONData(filePath, callback) {
+            fetch(filePath)
+                .then(response => response.json())
+                .then(data => callback(data))
+                .catch(error => console.error('Error fetching JSON:', error));
+        }
+
+        // Fetch the first JSON file (anime2.json)
+        fetchJSONData('../../../anime2.json', function(animeData) {
+
+            // Fetch the second JSON file (combined.json)
+            fetchJSONData('../../../combined.json', function(combinedData) {
+                console.log('Combined Data:', combinedData);
+
+                localPopularity(animeData)
+            });
+        });
+    </script>
+</body>
+</html>

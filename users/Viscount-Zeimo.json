@@ -1,0 +1,506 @@
+{
+    "name": "Viscount-Zeimo",
+    "link": "https://myanimelist.net/profile/Viscount-Zeimo",
+    "listLink": "https://myanimelist.net/animelist/Viscount-Zeimo",
+    "favAnime": [
+        "Hunter x Hunter (2011)",
+        "Arslan Senki (TV)"
+    ],
+    "favManga": [],
+    "favCharacters": [
+        {
+            "name": "Zoldyck, Killua",
+            "anime": "Hunter x Hunter"
+        },
+        {
+            "name": "Meruem",
+            "anime": "Hunter x Hunter (2011)"
+        },
+        {
+            "name": "Greed",
+            "anime": "Fullmetal Alchemist"
+        },
+        {
+            "name": "Lawliet, L",
+            "anime": "Death Note"
+        },
+        {
+            "name": "Wood, Alexander W.",
+            "anime": "Babylon"
+        },
+        {
+            "name": "Makishima, Shougo",
+            "anime": "Psycho-Pass"
+        }
+    ],
+    "ratedAnime": [
+        {
+            "name": "Cowboy Bebop",
+            "userRating": 8
+        },
+        {
+            "name": "Dr. Stone: Stone Wars",
+            "userRating": 8
+        },
+        {
+            "name": "Enen no Shouboutai",
+            "userRating": 6
+        },
+        {
+            "name": "Great Pretender",
+            "userRating": 8
+        },
+        {
+            "name": "Monster",
+            "userRating": 6
+        },
+        {
+            "name": "One Piece",
+            "userRating": 6
+        },
+        {
+            "name": "Violet Evergarden",
+            "userRating": 6
+        },
+        {
+            "name": "Watashi no Shiawase na Kekkon",
+            "userRating": 7
+        },
+        {
+            "name": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+            "userRating": 7
+        },
+        {
+            "name": "86 Part 2",
+            "userRating": 5
+        },
+        {
+            "name": "Ajin",
+            "userRating": 8
+        },
+        {
+            "name": "Ajin Part 2",
+            "userRating": 8
+        },
+        {
+            "name": "Akame ga Kill!",
+            "userRating": 8
+        },
+        {
+            "name": "Ansatsu Kyoushitsu",
+            "userRating": 8
+        },
+        {
+            "name": "Ao Haru Ride",
+            "userRating": 9
+        },
+        {
+            "name": "Arslan Senki (TV)",
+            "userRating": 9
+        },
+        {
+            "name": "Babylon",
+            "userRating": 7
+        },
+        {
+            "name": "Beastars",
+            "userRating": 7
+        },
+        {
+            "name": "Bleach",
+            "userRating": 7
+        },
+        {
+            "name": "Bleach Movie 4: Jigoku-hen",
+            "userRating": 8
+        },
+        {
+            "name": "Boku no Hero Academia",
+            "userRating": 7
+        },
+        {
+            "name": "Boku no Hero Academia 2nd Season",
+            "userRating": 6
+        },
+        {
+            "name": "Boku no Hero Academia 3rd Season",
+            "userRating": 7
+        },
+        {
+            "name": "Boku no Hero Academia the Movie 1: Futari no Hero",
+            "userRating": 7
+        },
+        {
+            "name": "Boku no Hero Academia the Movie 2: Heroes:Rising",
+            "userRating": 8
+        },
+        {
+            "name": "Btooom!",
+            "userRating": 7
+        },
+        {
+            "name": "Byousoku 5 Centimeter",
+            "userRating": 10
+        },
+        {
+            "name": "Citrus",
+            "userRating": 5
+        },
+        {
+            "name": "Claymore",
+            "userRating": 7
+        },
+        {
+            "name": "Code Geass: Fukkatsu no Lelouch",
+            "userRating": 7
+        },
+        {
+            "name": "Code Geass: Hangyaku no Lelouch",
+            "userRating": 10
+        },
+        {
+            "name": "Code Geass: Hangyaku no Lelouch R2",
+            "userRating": 10
+        },
+        {
+            "name": "Cyberpunk: Edgerunners",
+            "userRating": 7
+        },
+        {
+            "name": "Darker than Black: Kuro no Keiyakusha",
+            "userRating": 7
+        },
+        {
+            "name": "Death Note",
+            "userRating": 8
+        },
+        {
+            "name": "Death Parade",
+            "userRating": 8
+        },
+        {
+            "name": "Dr. Stone",
+            "userRating": 9
+        },
+        {
+            "name": "Dragon Ball Z",
+            "userRating": 5
+        },
+        {
+            "name": "Drifters",
+            "userRating": 8
+        },
+        {
+            "name": "Fate/stay night",
+            "userRating": 6
+        },
+        {
+            "name": "Fate/Zero",
+            "userRating": 6
+        },
+        {
+            "name": "Fate/Zero 2nd Season",
+            "userRating": 6
+        },
+        {
+            "name": "Fullmetal Alchemist",
+            "userRating": 8
+        },
+        {
+            "name": "Fullmetal Alchemist: Brotherhood",
+            "userRating": 8
+        },
+        {
+            "name": "Ginga Eiyuu Densetsu Gaiden: Ougon no Tsubasa",
+            "userRating": 7
+        },
+        {
+            "name": "Ginga Eiyuu Densetsu: Arata naru Tatakai no Overture",
+            "userRating": 9
+        },
+        {
+            "name": "Ginga Eiyuu Densetsu: Waga Yuku wa Hoshi no Taikai",
+            "userRating": 8
+        },
+        {
+            "name": "Goblin Slayer",
+            "userRating": 7
+        },
+        {
+            "name": "Goblin Slayer: Goblin's Crown",
+            "userRating": 7
+        },
+        {
+            "name": "Highschool of the Dead",
+            "userRating": 5
+        },
+        {
+            "name": "Horimiya",
+            "userRating": 6
+        },
+        {
+            "name": "Hunter x Hunter",
+            "userRating": 10
+        },
+        {
+            "name": "Hunter x Hunter (2011)",
+            "userRating": 10
+        },
+        {
+            "name": "Hunter x Hunter Movie 1: Phantom Rouge",
+            "userRating": 7
+        },
+        {
+            "name": "Hunter x Hunter Movie 2: The Last Mission",
+            "userRating": 7
+        },
+        {
+            "name": "Jigokuraku",
+            "userRating": 5
+        },
+        {
+            "name": "JoJo no Kimyou na Bouken (TV)",
+            "userRating": 5
+        },
+        {
+            "name": "Jujutsu Kaisen",
+            "userRating": 7
+        },
+        {
+            "name": "Jujutsu Kaisen 0 Movie",
+            "userRating": 6
+        },
+        {
+            "name": "Juu Ou Sei",
+            "userRating": 4
+        },
+        {
+            "name": "Kage no Jitsuryokusha ni Naritakute!",
+            "userRating": 7
+        },
+        {
+            "name": "Kimetsu no Yaiba",
+            "userRating": 6
+        },
+        {
+            "name": "Kimetsu no Yaiba Movie: Mugen Ressha-hen",
+            "userRating": 7
+        },
+        {
+            "name": "Kimetsu no Yaiba: Yuukaku-hen",
+            "userRating": 7
+        },
+        {
+            "name": "Kimi no Na wa.",
+            "userRating": 7
+        },
+        {
+            "name": "Kiseijuu: Sei no Kakuritsu",
+            "userRating": 7
+        },
+        {
+            "name": "Koe no Katachi",
+            "userRating": 7
+        },
+        {
+            "name": "Kotonoha no Niwa",
+            "userRating": 8
+        },
+        {
+            "name": "Koutetsujou no Kabaneri",
+            "userRating": 7
+        },
+        {
+            "name": "Mirai Nikki (TV)",
+            "userRating": 4
+        },
+        {
+            "name": "Mob Psycho 100",
+            "userRating": 10
+        },
+        {
+            "name": "Mob Psycho 100 II",
+            "userRating": 8
+        },
+        {
+            "name": "Nanatsu no Taizai",
+            "userRating": 5
+        },
+        {
+            "name": "Naruto",
+            "userRating": 7
+        },
+        {
+            "name": "Naruto: Shippuuden",
+            "userRating": 8
+        },
+        {
+            "name": "Omoide Poroporo",
+            "userRating": 8
+        },
+        {
+            "name": "One Punch Man",
+            "userRating": 10
+        },
+        {
+            "name": "One Punch Man 2nd Season",
+            "userRating": 7
+        },
+        {
+            "name": "Ore Monogatari!!",
+            "userRating": 8
+        },
+        {
+            "name": "Overlord",
+            "userRating": 7
+        },
+        {
+            "name": "Overlord II",
+            "userRating": 7
+        },
+        {
+            "name": "Psycho-Pass",
+            "userRating": 9
+        },
+        {
+            "name": "Psycho-Pass 2",
+            "userRating": 5
+        },
+        {
+            "name": "Psycho-Pass Movie",
+            "userRating": 6
+        },
+        {
+            "name": "Shingeki no Kyojin",
+            "userRating": 10
+        },
+        {
+            "name": "Shingeki no Kyojin Season 2",
+            "userRating": 10
+        },
+        {
+            "name": "Shingeki no Kyojin Season 3",
+            "userRating": 7
+        },
+        {
+            "name": "Shingeki no Kyojin Season 3 Part 2",
+            "userRating": 10
+        },
+        {
+            "name": "Shingeki no Kyojin: Kuinaki Sentaku",
+            "userRating": 9
+        },
+        {
+            "name": "Shokugeki no Souma",
+            "userRating": 7
+        },
+        {
+            "name": "Shokugeki no Souma: Ni no Sara",
+            "userRating": 7
+        },
+        {
+            "name": "Strike the Blood",
+            "userRating": 6
+        },
+        {
+            "name": "Sword Art Online",
+            "userRating": 10
+        },
+        {
+            "name": "Sword Art Online II",
+            "userRating": 7
+        },
+        {
+            "name": "Sword Art Online Movie: Ordinal Scale",
+            "userRating": 6
+        },
+        {
+            "name": "Tate no Yuusha no Nariagari",
+            "userRating": 8
+        },
+        {
+            "name": "The Last: Naruto the Movie",
+            "userRating": 7
+        },
+        {
+            "name": "Tokyo Ghoul",
+            "userRating": 7
+        },
+        {
+            "name": "Tokyo Ghoul √A",
+            "userRating": 8
+        },
+        {
+            "name": "Tokyo Ghoul:re",
+            "userRating": 3
+        },
+        {
+            "name": "Tokyo Ghoul:re 2nd Season",
+            "userRating": 5
+        },
+        {
+            "name": "Tokyo Revengers",
+            "userRating": 8
+        },
+        {
+            "name": "Umi ga Kikoeru",
+            "userRating": 8
+        },
+        {
+            "name": "Vinland Saga",
+            "userRating": 8
+        },
+        {
+            "name": "Vinland Saga Season 2",
+            "userRating": 9
+        },
+        {
+            "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+            "userRating": 8
+        },
+        {
+            "name": "Yuukoku no Moriarty",
+            "userRating": 8
+        },
+        {
+            "name": "Yuukoku no Moriarty Part 2",
+            "userRating": 5
+        },
+        {
+            "name": "Another",
+            "userRating": 4
+        },
+        {
+            "name": "Black Clover",
+            "userRating": 5
+        },
+        {
+            "name": "Deadman Wonderland",
+            "userRating": 1
+        },
+        {
+            "name": "Devilman: Crybaby",
+            "userRating": 1
+        },
+        {
+            "name": "God Eater",
+            "userRating": 4
+        },
+        {
+            "name": "Hellsing Ultimate",
+            "userRating": 4
+        },
+        {
+            "name": "Kill la Kill",
+            "userRating": 4
+        },
+        {
+            "name": "The God of High School",
+            "userRating": 5
+        },
+        {
+            "name": "Zetman",
+            "userRating": 5
+        }
+    ]
+}

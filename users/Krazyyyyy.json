@@ -1,0 +1,573 @@
+{
+    "name": "Krazyyyyy",
+    "link": "https://myanimelist.net/profile/Krazyyyyy",
+    "listLink": "https://myanimelist.net/animelist/Krazyyyyy",
+    "favAnime": [
+        "Bleach",
+        "Monster",
+        "91 Days",
+        "Kiseijuu: Sei no Kakuritsu",
+        "Kuroko no Basket 3rd Season"
+    ],
+    "favManga": [],
+    "favCharacters": [
+        {
+            "name": "Boxxo",
+            "anime": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou"
+        },
+        {
+            "name": "Yagami, Light",
+            "anime": "Death Note"
+        },
+        {
+            "name": "Liebert, Johan",
+            "anime": "Monster"
+        },
+        {
+            "name": "Guts",
+            "anime": "Kenpuu Denki Berserk"
+        },
+        {
+            "name": "Escanor",
+            "anime": "Nanatsu no Taizai: Seisen no Shirushi"
+        },
+        {
+            "name": "Gobta",
+            "anime": "Tensei shitara Slime Datta Ken"
+        },
+        {
+            "name": "Tsukumo, Yuki",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Lucilfer, Chrollo",
+            "anime": "Hunter x Hunter"
+        },
+        {
+            "name": "Kuchiki, Byakuya",
+            "anime": "Bleach"
+        }
+    ],
+    "ratedAnime": [
+        {
+            "name": "Ao Ashi",
+            "userRating": 7
+        },
+        {
+            "name": "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
+            "userRating": 10
+        },
+        {
+            "name": "Jujutsu Kaisen 2nd Season",
+            "userRating": 9
+        },
+        {
+            "name": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+            "userRating": 7
+        },
+        {
+            "name": "\"Bungaku Shoujo\" Movie",
+            "userRating": 7
+        },
+        {
+            "name": "91 Days",
+            "userRating": 10
+        },
+        {
+            "name": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+            "userRating": 10
+        },
+        {
+            "name": "Ansatsu Kyoushitsu",
+            "userRating": 7
+        },
+        {
+            "name": "Bleach",
+            "userRating": 10
+        },
+        {
+            "name": "Bleach: Sennen Kessen-hen",
+            "userRating": 10
+        },
+        {
+            "name": "Boku no Hero Academia",
+            "userRating": 5
+        },
+        {
+            "name": "Boku no Hero Academia 2nd Season",
+            "userRating": 5
+        },
+        {
+            "name": "Boku no Hero Academia 3rd Season",
+            "userRating": 9
+        },
+        {
+            "name": "Boku no Hero Academia 4th Season",
+            "userRating": 9
+        },
+        {
+            "name": "Boku no Hero Academia 5th Season",
+            "userRating": 4
+        },
+        {
+            "name": "Boruto: Naruto Next Generations",
+            "userRating": 5
+        },
+        {
+            "name": "Bubble",
+            "userRating": 4
+        },
+        {
+            "name": "Cat Shit One",
+            "userRating": 4
+        },
+        {
+            "name": "Chainsaw Man",
+            "userRating": 8
+        },
+        {
+            "name": "Code Geass: Hangyaku no Lelouch",
+            "userRating": 9
+        },
+        {
+            "name": "Code Geass: Hangyaku no Lelouch R2",
+            "userRating": 8
+        },
+        {
+            "name": "Cyberpunk: Edgerunners",
+            "userRating": 8
+        },
+        {
+            "name": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation",
+            "userRating": 8
+        },
+        {
+            "name": "Darling in the FranXX",
+            "userRating": 6
+        },
+        {
+            "name": "Death Note",
+            "userRating": 7
+        },
+        {
+            "name": "Death Parade",
+            "userRating": 7
+        },
+        {
+            "name": "Dororo",
+            "userRating": 7
+        },
+        {
+            "name": "Dragon Ball Z",
+            "userRating": 8
+        },
+        {
+            "name": "Drifters",
+            "userRating": 9
+        },
+        {
+            "name": "Haikyuu!!",
+            "userRating": 7
+        },
+        {
+            "name": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+            "userRating": 7
+        },
+        {
+            "name": "Haikyuu!! Second Season",
+            "userRating": 8
+        },
+        {
+            "name": "Haikyuu!! To the Top",
+            "userRating": 9
+        },
+        {
+            "name": "Hataraku Maou-sama!",
+            "userRating": 7
+        },
+        {
+            "name": "Hellsing Ultimate",
+            "userRating": 8
+        },
+        {
+            "name": "High School DxD",
+            "userRating": 5
+        },
+        {
+            "name": "Highschool of the Dead",
+            "userRating": 7
+        },
+        {
+            "name": "Hotaru no Haka",
+            "userRating": 7
+        },
+        {
+            "name": "Hotarubi no Mori e",
+            "userRating": 9
+        },
+        {
+            "name": "Hunter x Hunter (2011)",
+            "userRating": 7
+        },
+        {
+            "name": "Jibaku Shounen Hanako-kun",
+            "userRating": 7
+        },
+        {
+            "name": "Jujutsu Kaisen",
+            "userRating": 8
+        },
+        {
+            "name": "Jujutsu Kaisen 0 Movie",
+            "userRating": 7
+        },
+        {
+            "name": "Kimetsu no Yaiba",
+            "userRating": 6
+        },
+        {
+            "name": "Kimetsu no Yaiba: Mugen Ressha-hen",
+            "userRating": 5
+        },
+        {
+            "name": "Kimi no Na wa.",
+            "userRating": 8
+        },
+        {
+            "name": "Kimi no Suizou wo Tabetai",
+            "userRating": 7
+        },
+        {
+            "name": "Kiseijuu: Sei no Kakuritsu",
+            "userRating": 10
+        },
+        {
+            "name": "Kitsune no Koe",
+            "userRating": 6
+        },
+        {
+            "name": "Koe no Katachi",
+            "userRating": 8
+        },
+        {
+            "name": "Kuroko no Basket",
+            "userRating": 9
+        },
+        {
+            "name": "Kuroko no Basket 2nd Season",
+            "userRating": 10
+        },
+        {
+            "name": "Kuroko no Basket 3rd Season",
+            "userRating": 10
+        },
+        {
+            "name": "Kuroko no Basket Movie 4: Last Game",
+            "userRating": 10
+        },
+        {
+            "name": "Mirai Nikki (TV)",
+            "userRating": 8
+        },
+        {
+            "name": "Monster",
+            "userRating": 10
+        },
+        {
+            "name": "Nanatsu no Taizai",
+            "userRating": 8
+        },
+        {
+            "name": "Nanatsu no Taizai: Imashime no Fukkatsu",
+            "userRating": 10
+        },
+        {
+            "name": "Nanatsu no Taizai: Kamigami no Gekirin",
+            "userRating": 6
+        },
+        {
+            "name": "Naruto",
+            "userRating": 7
+        },
+        {
+            "name": "Naruto: Shippuuden",
+            "userRating": 8
+        },
+        {
+            "name": "Naruto: Shippuuden Movie 6 - Road to Ninja",
+            "userRating": 6
+        },
+        {
+            "name": "NHK ni Youkoso!",
+            "userRating": 8
+        },
+        {
+            "name": "No Game No Life",
+            "userRating": 7
+        },
+        {
+            "name": "One Punch Man",
+            "userRating": 8
+        },
+        {
+            "name": "One Punch Man 2nd Season",
+            "userRating": 9
+        },
+        {
+            "name": "Ousama Ranking",
+            "userRating": 7
+        },
+        {
+            "name": "Owari no Seraph",
+            "userRating": 7
+        },
+        {
+            "name": "Perfect Blue",
+            "userRating": 8
+        },
+        {
+            "name": "Pokemon",
+            "userRating": 5
+        },
+        {
+            "name": "Pokemon Movie 01: Mewtwo no Gyakushuu",
+            "userRating": 6
+        },
+        {
+            "name": "Pokemon XY",
+            "userRating": 7
+        },
+        {
+            "name": "Prison School",
+            "userRating": 5
+        },
+        {
+            "name": "Re:Zero kara Hajimeru Isekai Seikatsu",
+            "userRating": 7
+        },
+        {
+            "name": "Tensei shitara Slime Datta Ken",
+            "userRating": 7
+        },
+        {
+            "name": "Tensei shitara Slime Datta Ken 2nd Season",
+            "userRating": 7
+        },
+        {
+            "name": "Tensei shitara Slime Datta Ken 2nd Season Part 2",
+            "userRating": 8
+        },
+        {
+            "name": "Tokyo Revengers",
+            "userRating": 7
+        },
+        {
+            "name": "Tonari no Totoro",
+            "userRating": 7
+        },
+        {
+            "name": "Vinland Saga",
+            "userRating": 9
+        },
+        {
+            "name": "Yakusoku no Neverland",
+            "userRating": 8
+        },
+        {
+            "name": "Youjo Senki",
+            "userRating": 8
+        },
+        {
+            "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+            "userRating": 7
+        },
+        {
+            "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+            "userRating": 7
+        },
+        {
+            "name": "Bakuman. 2nd Season",
+            "userRating": 6
+        },
+        {
+            "name": "Dragon Ball Super",
+            "userRating": 7
+        },
+        {
+            "name": "Fumetsu no Anata e",
+            "userRating": 7
+        },
+        {
+            "name": "Jigokuraku",
+            "userRating": 8
+        },
+        {
+            "name": "Mashle",
+            "userRating": 8
+        },
+        {
+            "name": "Samurai Champloo",
+            "userRating": 8
+        },
+        {
+            "name": "Another",
+            "userRating": 7
+        },
+        {
+            "name": "Black Clover",
+            "userRating": 6
+        },
+        {
+            "name": "Boku no Hero Academia 6th Season",
+            "userRating": 7
+        },
+        {
+            "name": "Charlotte",
+            "userRating": 5
+        },
+        {
+            "name": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai-hen",
+            "userRating": 6
+        },
+        {
+            "name": "Darker than Black: Kuro no Keiyakusha",
+            "userRating": 6
+        },
+        {
+            "name": "Dr. Stone",
+            "userRating": 8
+        },
+        {
+            "name": "Fairy Tail",
+            "userRating": 5
+        },
+        {
+            "name": "Gamers!",
+            "userRating": 5
+        },
+        {
+            "name": "Gokushufudou",
+            "userRating": 5
+        },
+        {
+            "name": "Guilty Crown",
+            "userRating": 2
+        },
+        {
+            "name": "Hellsing",
+            "userRating": 8
+        },
+        {
+            "name": "Hibike! Euphonium",
+            "userRating": 6
+        },
+        {
+            "name": "Himouto! Umaru-chan",
+            "userRating": 7
+        },
+        {
+            "name": "Hyouka",
+            "userRating": 5
+        },
+        {
+            "name": "Ijiranaide, Nagatoro-san",
+            "userRating": 4
+        },
+        {
+            "name": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
+            "userRating": 3
+        },
+        {
+            "name": "Kaichou wa Maid-sama!",
+            "userRating": 7
+        },
+        {
+            "name": "Kanojo, Okarishimasu",
+            "userRating": 2
+        },
+        {
+            "name": "Kaze ga Tsuyoku Fuiteiru",
+            "userRating": 8
+        },
+        {
+            "name": "Kono Subarashii Sekai ni Shukufuku wo!",
+            "userRating": 6
+        },
+        {
+            "name": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+            "userRating": 4
+        },
+        {
+            "name": "Nanatsu no Taizai: Funnu no Shinpan",
+            "userRating": 4
+        },
+        {
+            "name": "Noragami",
+            "userRating": 6
+        },
+        {
+            "name": "Odd Taxi",
+            "userRating": 6
+        },
+        {
+            "name": "One Piece",
+            "userRating": 6
+        },
+        {
+            "name": "Ousama Ranking: Yuuki no Takarabako",
+            "userRating": 7
+        },
+        {
+            "name": "Saiki Kusuo no Ψ-nan 2",
+            "userRating": 7
+        },
+        {
+            "name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+            "userRating": 4
+        },
+        {
+            "name": "Shingeki no Kyojin",
+            "userRating": 6
+        },
+        {
+            "name": "Shuumatsu no Harem",
+            "userRating": 5
+        },
+        {
+            "name": "Spy x Family",
+            "userRating": 7
+        },
+        {
+            "name": "Tate no Yuusha no Nariagari",
+            "userRating": 6
+        },
+        {
+            "name": "Tokyo Ghoul",
+            "userRating": 4
+        },
+        {
+            "name": "Tokyo Revengers: Seiya Kessen-hen",
+            "userRating": 5
+        },
+        {
+            "name": "Tomodachi Game",
+            "userRating": 6
+        },
+        {
+            "name": "Vinland Saga Season 2",
+            "userRating": 8
+        },
+        {
+            "name": "World Trigger",
+            "userRating": 3
+        },
+        {
+            "name": "Yakusoku no Neverland 2nd Season",
+            "userRating": 4
+        },
+        {
+            "name": "Yarichin☆Bitch-bu",
+            "userRating": 1
+        }
+    ]
+}

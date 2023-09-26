@@ -1,0 +1,370 @@
+{
+    "name": "EyeSiN",
+    "link": "https://myanimelist.net/profile/EyeSiN",
+    "listLink": "https://myanimelist.net/animelist/EyeSiN",
+    "favAnime": [
+        "Jujutsu Kaisen 2nd Season",
+        "Blue Lock",
+        "Shingeki no Kyojin: The Final Season",
+        "Vinland Saga",
+        "Death Note",
+        "Kizumonogatari I: Tekketsu-hen",
+        "Tokyo Ghoul √A",
+        "Death Parade"
+    ],
+    "favManga": [
+        "Jujutsu Kaisen"
+    ],
+    "favCharacters": [
+        {
+            "name": "Hakari, Kinji",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Nanami, Kento",
+            "anime": "Jujutsu Kaisen"
+        },
+        {
+            "name": "Yeager, Eren",
+            "anime": "Shingeki no Kyojin"
+        },
+        {
+            "name": "Askeladd",
+            "anime": "Vinland Saga"
+        },
+        {
+            "name": "Thorfinn",
+            "anime": "Vinland Saga"
+        },
+        {
+            "name": "Smith, Erwin",
+            "anime": "Shingeki no Kyojin"
+        },
+        {
+            "name": "Kaneki, Ken",
+            "anime": "Tokyo Ghoul"
+        },
+        {
+            "name": "Yagami, Light",
+            "anime": "Death Note"
+        }
+    ],
+    "ratedAnime": [
+        {
+            "name": "Another",
+            "userRating": 8
+        },
+        {
+            "name": "Jujutsu Kaisen 2nd Season",
+            "userRating": 10
+        },
+        {
+            "name": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+            "userRating": 9
+        },
+        {
+            "name": 86,
+            "userRating": 8
+        },
+        {
+            "name": "86 Part 2",
+            "userRating": 7
+        },
+        {
+            "name": "91 Days",
+            "userRating": 8
+        },
+        {
+            "name": "Akudama Drive",
+            "userRating": 9
+        },
+        {
+            "name": "Bakemonogatari",
+            "userRating": 7
+        },
+        {
+            "name": "Blue Lock",
+            "userRating": 9
+        },
+        {
+            "name": "Boku dake ga Inai Machi",
+            "userRating": 10
+        },
+        {
+            "name": "Boku no Hero Academia",
+            "userRating": 6
+        },
+        {
+            "name": "Boku no Hero Academia 2nd Season",
+            "userRating": 6
+        },
+        {
+            "name": "Boku no Hero Academia 3rd Season",
+            "userRating": 7
+        },
+        {
+            "name": "Boku no Hero Academia 4th Season",
+            "userRating": 7
+        },
+        {
+            "name": "Boku no Hero Academia 5th Season",
+            "userRating": 3
+        },
+        {
+            "name": "Boku no Hero Academia 6th Season",
+            "userRating": 9
+        },
+        {
+            "name": "Chainsaw Man",
+            "userRating": 10
+        },
+        {
+            "name": "Cyberpunk: Edgerunners",
+            "userRating": 9
+        },
+        {
+            "name": "Death Billiards",
+            "userRating": 8
+        },
+        {
+            "name": "Death Note",
+            "userRating": 10
+        },
+        {
+            "name": "Death Parade",
+            "userRating": 10
+        },
+        {
+            "name": "Jigokuraku",
+            "userRating": 7
+        },
+        {
+            "name": "JoJo no Kimyou na Bouken (TV)",
+            "userRating": 9
+        },
+        {
+            "name": "Jujutsu Kaisen",
+            "userRating": 9
+        },
+        {
+            "name": "Jujutsu Kaisen 0 Movie",
+            "userRating": 9
+        },
+        {
+            "name": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
+            "userRating": 9
+        },
+        {
+            "name": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+            "userRating": 9
+        },
+        {
+            "name": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+            "userRating": 9
+        },
+        {
+            "name": "Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen",
+            "userRating": 7
+        },
+        {
+            "name": "Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen OVA",
+            "userRating": 7
+        },
+        {
+            "name": "Kimetsu no Yaiba",
+            "userRating": 7
+        },
+        {
+            "name": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+            "userRating": 7
+        },
+        {
+            "name": "Kimetsu no Yaiba: Mugen Ressha-hen",
+            "userRating": 8
+        },
+        {
+            "name": "Kimetsu no Yaiba: Yuukaku-hen",
+            "userRating": 10
+        },
+        {
+            "name": "Kiseijuu: Sei no Kakuritsu",
+            "userRating": 4
+        },
+        {
+            "name": "Kizumonogatari I: Tekketsu-hen",
+            "userRating": 10
+        },
+        {
+            "name": "Kizumonogatari II: Nekketsu-hen",
+            "userRating": 9
+        },
+        {
+            "name": "Kizumonogatari III: Reiketsu-hen",
+            "userRating": 9
+        },
+        {
+            "name": "Kuzu no Honkai",
+            "userRating": 8
+        },
+        {
+            "name": "Monster",
+            "userRating": 7
+        },
+        {
+            "name": "Nekomonogatari: Kuro",
+            "userRating": 6
+        },
+        {
+            "name": "Nisemonogatari",
+            "userRating": 6
+        },
+        {
+            "name": "One Punch Man",
+            "userRating": 8
+        },
+        {
+            "name": "One Punch Man 2nd Season",
+            "userRating": 8
+        },
+        {
+            "name": "Shiguang Dailiren",
+            "userRating": 5
+        },
+        {
+            "name": "Shiguang Dailiren Fan Wai Pian: Biwu Zhaoqin",
+            "userRating": 6
+        },
+        {
+            "name": "Shingeki no Kyojin",
+            "userRating": 10
+        },
+        {
+            "name": "Shingeki no Kyojin OVA",
+            "userRating": 6
+        },
+        {
+            "name": "Shingeki no Kyojin Season 2",
+            "userRating": 7
+        },
+        {
+            "name": "Shingeki no Kyojin Season 3",
+            "userRating": 9
+        },
+        {
+            "name": "Shingeki no Kyojin Season 3 Part 2",
+            "userRating": 10
+        },
+        {
+            "name": "Shingeki no Kyojin: Kuinaki Sentaku",
+            "userRating": 8
+        },
+        {
+            "name": "Shingeki no Kyojin: Lost Girls",
+            "userRating": 7
+        },
+        {
+            "name": "Shingeki no Kyojin: The Final Season",
+            "userRating": 10
+        },
+        {
+            "name": "Shingeki no Kyojin: The Final Season Part 2",
+            "userRating": 9
+        },
+        {
+            "name": "Shuumatsu no Walküre",
+            "userRating": 7
+        },
+        {
+            "name": "Shuumatsu no Walküre II",
+            "userRating": 8
+        },
+        {
+            "name": "Shuumatsu no Walküre II Part 2",
+            "userRating": 7
+        },
+        {
+            "name": "Spy x Family",
+            "userRating": 8
+        },
+        {
+            "name": "Spy x Family Part 2",
+            "userRating": 8
+        },
+        {
+            "name": "Tengoku Daimakyou",
+            "userRating": 2
+        },
+        {
+            "name": "Tokyo Ghoul",
+            "userRating": 8
+        },
+        {
+            "name": "Tokyo Ghoul √A",
+            "userRating": 10
+        },
+        {
+            "name": "Tokyo Ghoul:re",
+            "userRating": 7
+        },
+        {
+            "name": "Tomo-chan wa Onnanoko!",
+            "userRating": 9
+        },
+        {
+            "name": "Tomodachi Game",
+            "userRating": 5
+        },
+        {
+            "name": "Vinland Saga",
+            "userRating": 10
+        },
+        {
+            "name": "Vinland Saga Season 2",
+            "userRating": 9
+        },
+        {
+            "name": "Watashi no Shiawase na Kekkon",
+            "userRating": 3
+        },
+        {
+            "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+            "userRating": 5
+        },
+        {
+            "name": "\"Oshi no Ko\"",
+            "userRating": 7
+        },
+        {
+            "name": "Enen no Shouboutai",
+            "userRating": 8
+        },
+        {
+            "name": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
+            "userRating": 5
+        },
+        {
+            "name": "Odd Taxi",
+            "userRating": 5
+        },
+        {
+            "name": "One Piece",
+            "userRating": 7
+        },
+        {
+            "name": "Shiguang Dailiren II",
+            "userRating": 5
+        },
+        {
+            "name": "Summertime Render",
+            "userRating": 5
+        },
+        {
+            "name": "Tokyo Ghoul:re 2nd Season",
+            "userRating": 2
+        },
+        {
+            "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+            "userRating": 5
+        }
+    ]
+}
