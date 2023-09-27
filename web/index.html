@@ -17,7 +17,8 @@
 
     <script type="module">
         
-        import { popularity, localPopularity } from './popularity/popularity.js';
+        import { popularity, localPopularity, lowestPopularity } from './scripts/popularity.js';
+        import { ratings, localRatings, localRatingsReversed, weightedRatings, avgRatings } from './scripts/ratings.js';
 
         // Function to fetch JSON data from a file and parse it into a JavaScript object
         function fetchJSONData(filePath, callback) {
@@ -34,7 +35,7 @@
             fetchJSONData('../../../combined.json', function(combinedData) {
                 console.log('Combined Data:', combinedData);
 
-                localPopularity(animeData)
+                avgRatings(animeData)
             });
         });
     </script>
