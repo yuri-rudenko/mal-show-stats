@@ -12,9 +12,9 @@ headers = {
 with open("anime2.json", "r+", encoding="utf-8") as json_file:                      
     anime = json.load(json_file)
 
-i = 700
+i = 1000
 productInfo = []
-while i<1000:
+while i<2000:
 
     website = requests.get(f"https://myanimelist.net/topanime.php?type=bypopularity&limit={i}", headers=headers)
     src = website.text

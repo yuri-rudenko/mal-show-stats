@@ -9,7 +9,7 @@ export function ratings(anime) {
         if(a.peopleRated < 4 && b.peopleRated < 4) return 0
         if(a.peopleRated < 4) return 1
         if(b.peopleRated < 4) return -1
-        return b.userRating/b.peopleRated - a.userRating/a.peopleRated
+        return (b.userRating/b.peopleRated - a.userRating/a.peopleRated)
 
     })
     console.log(newAnime)
@@ -20,11 +20,23 @@ export function ratings(anime) {
     imgHolder.classList.add('img-holder')
     images.append(imgHolder)
 
-    for(let i = 0; i< 108; i++) {
 
-        console.log(`${i+1}.`,newAnime[i].name, `${Math.floor(newAnime[i].userRating/newAnime[i].peopleRated *100)/100}`)
+    for(let i = 0; i< 48; i++) {
 
-        if(i%12 == 0) {
+        let imgWrapper = document.createElement('div')
+        imgWrapper.classList.add('image-wrapper')
+
+        let rating = document.createElement('p')
+        rating.classList.add('rating')
+        rating.innerHTML = Math.floor(newAnime[i].userRating/newAnime[i].peopleRated *100)/100
+
+        let position = document.createElement('p')
+        position.classList.add('position')
+        position.innerHTML = i+1
+
+        console.log(`${i+1}.`,newAnime[i].name, `${rating.innerHTML}`)
+
+        if(i%8 == 0) {
             imgHolder = document.createElement('div')
             imgHolder.classList.add('img-holder')
             images.append(imgHolder)
@@ -34,7 +46,10 @@ export function ratings(anime) {
             let img = document.createElement('img')
             img.classList.add('image')
             img.src = newAnime[i].bigImage
-            imgHolder.append(img)
+            imgWrapper.append(img)
+            imgWrapper.append(position)
+            imgWrapper.append(rating)
+            imgHolder.append(imgWrapper)
         }
         else {
             let txt = document.createElement('div')
@@ -42,7 +57,11 @@ export function ratings(anime) {
             let p = document.createElement('p')
             p.classList.add('title')
             p.innerHTML = newAnime[i].name
+            let rat = document.createElement('p')
+            rat.classList.add('p-rating')
+            rat.innerHTML = Math.floor(newAnime[i].userRating/newAnime[i].peopleRated *100)/100
             txt.append(p)
+            txt.append(rat)
             imgHolder.append(txt)
         }
     }
