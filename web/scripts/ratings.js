@@ -229,3 +229,77 @@ export function avgRatings(anime) {
 
     console.log(overallResult, localResult)
 }
+
+
+
+export function popularityRatings(anime) {
+    let newAnime = []
+    for(let key in anime) {
+        newAnime.push(anime[key])
+    }
+
+    newAnime.sort((a, b) => b.members - a.members)
+    console.log(newAnime)
+
+    let images = document.querySelector('.images')
+
+    let imgHolder = document.createElement('div')
+    imgHolder.classList.add('img-holder')
+    images.append(imgHolder)
+
+
+    for(let i = 0; i< 48; i++) {
+
+        let imgWrapper = document.createElement('div')
+        imgWrapper.classList.add('image-wrapper')
+
+        let rating = document.createElement('p')
+        rating.classList.add('rating')
+        rating.innerHTML = Math.floor(newAnime[i].userRating/newAnime[i].peopleRated *100)/100
+
+        let position = document.createElement('p')
+        position.classList.add('position')
+        position.innerHTML = i+1
+
+        let difference = document.createElement('p')
+        difference.innerHTML = Math.floor((rating.innerHTML-newAnime[i].rating) * 100)/100
+        difference.classList.add('difference')
+
+        if(difference.innerHTML > 0.05) difference.classList.add('positive')
+        if(difference.innerHTML < -0.4) difference.classList.add('negative')
+        if(difference.innerHTML > -0.4 && difference.innerHTML < 0.05) difference.classList.add('neutral')
+
+        console.log(`${i+1}.`,newAnime[i].name, `${rating.innerHTML}`)
+
+        if(i%8 == 0) {
+            imgHolder = document.createElement('div')
+            imgHolder.classList.add('img-holder')
+            images.append(imgHolder)
+        }
+
+        if(newAnime[i].bigImage) {
+            let img = document.createElement('img')
+            img.classList.add('image')
+            img.src = newAnime[i].bigImage
+            imgWrapper.append(img)
+            imgWrapper.append(position)
+            if(rating.innerHTML%1 == 0) rating.innerHTML += '.0'
+            imgWrapper.append(rating)
+            imgWrapper.append(difference)
+            imgHolder.append(imgWrapper)
+        }
+        else {
+            let txt = document.createElement('div')
+            txt.classList.add('text-container')
+            let p = document.createElement('p')
+            p.classList.add('title')
+            p.innerHTML = newAnime[i].name
+            let rat = document.createElement('p')
+            rat.classList.add('p-rating')
+            rat.innerHTML = Math.floor(newAnime[i].userRating/newAnime[i].peopleRated *100)/100
+            txt.append(p)
+            txt.append(rat)
+            imgHolder.append(txt)
+        }
+    }
+}

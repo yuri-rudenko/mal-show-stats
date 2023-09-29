@@ -45,3 +45,25 @@
     -webkit-text-stroke-color: rgb(0, 0, 0);
     margin-left: 5px;
 }
+.difference {
+    position: absolute;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 98px;
+    font-size: 24px;
+}
+.negative {
+    color: rgb(255, 0, 0);
+    margin-left: 30px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.positive {
+    color: lightgreen;
+    margin-left: 40px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.neutral {
+    color: yellow;
+    margin-left: 30px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
