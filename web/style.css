@@ -67,3 +67,15 @@
     margin-left: 30px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
+
+.char-popularity {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 36px;
+    margin-top: 50px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

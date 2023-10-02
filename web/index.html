@@ -19,7 +19,7 @@
         
         import { popularity, localPopularity, lowestPopularity } from './scripts/popularity.js';
         import { ratings, localRatings, localRatingsReversed, weightedRatings, avgRatings, popularityRatings } from './scripts/ratings.js';
-        import { favCharacters } from './scripts/favs.js';
+        import { favCharacters, favAnime } from './scripts/favs.js';
 
         // Function to fetch JSON data from a file and parse it into a JavaScript object
         function fetchJSONData(filePath, callback) {
@@ -37,7 +37,7 @@
                 console.log('Combined Data:', combinedData);
 
                 
-                popularityRatings(animeData)
+                favAnime(combinedData, animeData)
             });
         });
     </script>

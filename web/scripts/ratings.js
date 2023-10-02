@@ -1,7 +1,9 @@
 export function ratings(anime) {
     let newAnime = []
     for(let key in anime) {
-        newAnime.push(anime[key])
+        if(anime[key].name.includes('')) {
+            newAnime.push(anime[key])
+        }
     }
 
     newAnime.sort((a, b) => {
