@@ -1,37 +1,14 @@
 import json
 import csv
-# "Katanagatari": {
-#         "name": "Katanagatari",
-#         "rating": "8.31",
-#         "year": "2010",
-#         "members": "550736",
-#         "popularity": "378",
-#         "type": "TV",
-#         "studio": "White Fox",
-#         "episodes": "12",
-#         "source": "Light novel",
-#         "geners": [
-#             "Action",
-#             "Adventure",
-#             "Romance"
-#         ],
-#         "themes": [
-#             "Historical",
-#             "Martial Arts"
-#         ],
-#         "favorites": "10835",
-#         "userRating": 16,
-#         "peopleRated": 2,
-#         "avarageUserRating": 8.0,
-#         "bigImage": "https://cdn.myanimelist.net/images/anime/1112/119225.jpg"
-#     }
-#
+
 
 with open('anime2.json', 'r', encoding="utf-8") as json_file:
     anime = json.load(json_file)
 
 year = {}
 genres = {}
+studios = {}
+usualRating = {}
 
 for title in anime.values():
     animeYear = title["year"]
@@ -61,16 +38,35 @@ for title in anime.values():
                     "userRating": title["userRating"],
                     "uniqueTitles": 1  
                 }
+    animeStudio = title["studio"]        
+    if(animeStudio != ''):
+        if animeStudio in studios:
+            studios[animeStudio]["peopleRated"] += title["peopleRated"]
+            studios[animeStudio]["userRating"] += title["userRating"]
+            studios[animeStudio]["uniqueTitles"] += 1
+        else:
+            studios[animeStudio] = {
+                "peopleRated": title["peopleRated"],
+                "userRating": title["userRating"],
+                "uniqueTitles": 1  
+            }
+    name = title["name"]
+    if(name != ''):
+        if name in usualRating:
+            usualRating[name]["peopleRated"] += title["peopleRated"]
+            usualRating[name]["userRating"] += title["userRating"]
+        else:
+            usualRating[name] = {
+                "peopleRated": title["peopleRated"],
+                "userRating": title["userRating"],
+                "members": title["members"],
+                "globalRating": title["rating"]
+            }
+         
 
 print(genres)
 
     #with open("csv/members.csv", "a", encoding="utf-8") as file:
-    #    writer = csv.writer(file)
-    #    writer.writerow()
-    #with open("csv/type.csv", "a", encoding="utf-8") as file:
-    #    writer = csv.writer(file)
-    #    writer.writerow()
-    #with open("csv/studio.csv", "a", encoding="utf-8") as file:
     #    writer = csv.writer(file)
     #    writer.writerow()
     #with open("csv/episodes.csv", "a", encoding="utf-8") as file:
@@ -79,9 +75,7 @@ print(genres)
     #with open("csv/source.csv", "a", encoding="utf-8") as file:
     #    writer = csv.writer(file)
     #    writer.writerow()
-    #with open("csv/geners.csv", "a", encoding="utf-8") as file:
-    #    writer = csv.writer(file)
-    #    writer.writerow()
+
     #with open("csv/rating.csv", "a", encoding="utf-8") as file:
     #    writer = csv.writer(file)
     #    writer.writerow()
@@ -90,7 +84,6 @@ print(genres)
 with open("csv/year.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(("Year", "Populariy", "Rating", "Unique anime"))
-
 for attr in year:
     with open("csv/year.csv", "a", encoding="utf-8") as file:
         writer = csv.writer(file)
@@ -100,9 +93,29 @@ for attr in year:
 with open("csv/genres.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(("Genre", "Populariy", "Rating", "Unique anime"))
-
 for attr in genres:
     with open("csv/genres.csv", "a", encoding="utf-8") as file:
         writer = csv.writer(file)
         avgRating = round(int(genres[attr]["userRating"])/int(genres[attr]["peopleRated"]), 3)
         writer.writerow((attr, genres[attr]["peopleRated"], avgRating, genres[attr]["uniqueTitles"]))
+
+with open("csv/studio.csv", "w", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(("Studio", "Populariy", "Rating", "Unique anime"))
+for attr in studios:
+    with open("csv/studio.csv", "a", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        avgRating = round(int(studios[attr]["userRating"])/int(studios[attr]["peopleRated"]), 3)
+        writer.writerow((attr, studios[attr]["peopleRated"], avgRating, studios[attr]["uniqueTitles"]))
+
+with open("csv/ratings.csv", "w", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(("Name", "User Populariy", "User Rating", "Global Popularity", "Global Rating",'misc'))
+
+counter = 1
+for attr in usualRating:
+    with open("csv/ratings.csv", "a", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        avgRating = round(int(usualRating[attr]["userRating"])/int(usualRating[attr]["peopleRated"]), 3)
+        writer.writerow((attr, usualRating[attr]["peopleRated"], avgRating, usualRating[attr]["members"], usualRating[attr]["globalRating"], f"{counter}"))
+        counter += 1
