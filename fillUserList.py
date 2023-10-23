@@ -29,14 +29,13 @@ def fillUserList(user, anime):
         website=requests.get(f"https://myanimelist.net/animelist/{user['name']}/load.json?offset=0&status=7", headers=headers)
     except:
         return
-    print(2)
     parsed = json.loads(website.text)
     i = 300
 
     while len(parsed) > 0:
         for an in parsed:
             try:
-                #rating = an.find(class_="data score").find(class_="score-label").string.strip()
+                # rating = an.find(class_="data score").find(class_="score-label").string.strip()
                 if an["score"] != 0:
 
                     # name = an.find(class_="data title clearfix").find(class_="link sort").string.strip()

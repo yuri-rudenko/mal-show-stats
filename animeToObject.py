@@ -22,12 +22,23 @@ def animeToObject(link):
     popularity = ''
     type = ''
     studio = ''
+    image = ''
     themes = []
     geners = []
 
     try:
         if soup.find(class_="title-name h1_bold_none"):
             name = soup.find(class_="title-name h1_bold_none").find("strong").string
+    except AttributeError:
+        pass
+
+    try:
+        if soup.find(class_="leftside"):
+            left = soup.find(class_="leftside")
+            if left.find("div"):
+                div = left.find("div")
+                if div.find("img"):
+                    image = div.find("img")["data-src"]
     except AttributeError:
         pass
 
@@ -86,6 +97,10 @@ def animeToObject(link):
             for theme in themesTemp:
                 themes.append(theme.string)
 
+        if el.find(class_="dark_text").string == "Aired:":
+            if(year == ""):
+                year = el.find(class_="dark_text").next_sibling.strip()[-4:]
+
         if el.find(class_="dark_text").string == "Favorites:":
             favorites = el.find(class_="dark_text").next_sibling.strip().replace(",", "")
             break
@@ -103,9 +118,10 @@ def animeToObject(link):
             "geners":geners,
             "themes":themes,
             "favorites":favorites,
+            "image": image,
             "userRating": 0,
             "peopleRated": 1,
-            "avarageUserRaating": 0,
+            "avgUserRating": 0,
         }
     else:
         return "Error"

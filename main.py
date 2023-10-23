@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import re
+import os
 from fillUserList import fillUserList
 
 
@@ -15,37 +16,14 @@ headers = {
 
 anime = {}
 
-with open('anime.json', 'r', encoding="utf-8") as json_file:
-    anime = json.load(json_file)
+#with open('anime.json', 'r', encoding="utf-8") as json_file:
+#    anime = json.load(json_file)
 
-used = [
-    "Krutish",
-    "Patiss0n",
-    "Darconic",
-    "Achmetha0626",
-    "EyeSiN",
-    "im_berny",
-    "Kewpie2001",
-    "Kiriyama_Rei18",
-    "Krazyyyyy",
-    "YamiNoTensai",
-    "1Igo",
-    "Rishon007",
-    "thelambda",
-    "Bugsbunnyfake",
-    "Ashley___",
-    "Rara019",
-    "thisonebee",
-    "Ks0345",
-    "Pekyo",
-    "Oubwio",
-    "Kunasenpai",
-    "Viscount-Zeimo",
-    "Bolobos"
-]
 i = 0
+# enter the usernames into this array separated by comma
 input = [
-    
+    "ChatGPT_",
+    "Patisson"
 ]
 users = []
 while i<len(input):
@@ -54,6 +32,9 @@ while i<len(input):
     src = website.text
     soup = BeautifulSoup(src, "lxml")
 
+    image = ''
+    if soup.find(class_="user-image"):
+        image = soup.find(class_="user-image").find("img")["data-src"]
     favAnimeArr = []
     if soup.find(id="anime_favorites"):
         favAnime = soup.find(id="anime_favorites")
@@ -85,6 +66,7 @@ while i<len(input):
         "name": input[i],
         "link": f"https://myanimelist.net/profile/{input[i]}",
         "listLink": f"https://myanimelist.net/animelist/{input[i]}",
+        "profilePicture": image,
         "favAnime":favAnimeArr,
         "favManga":favMangaArr,
         "favCharacters":favCharactersArr,
@@ -98,8 +80,45 @@ while i<len(input):
         json.dump(users[i], file, indent=4, ensure_ascii=False)
     i+=1
 
+def custom_encoder(obj):
+    if isinstance(obj, str):
+        return obj.encode('utf-8').decode('unicode_escape')
+    return obj
+
+# Specify the folder containing your JSON files
+folder_path = 'users'
+
+# Initialize an empty list to store JSON objects
+json_objects = []
+
+for filename in os.listdir(folder_path):
+    if filename.endswith('.json'):
+        file_path = os.path.join(folder_path, filename)
+        
+        with open(file_path, 'r', encoding='utf-8') as file:
+            try:
+                json_data = json.load(file)
+                json_objects.append(json_data)
+            except json.JSONDecodeError as e:
+                print(f"Error reading {filename}: {e}")
+
+output_file_path = 'users.json'
+with open(output_file_path, 'w', encoding='utf-8') as output_file:
+    json.dump(json_objects, output_file, indent=4, ensure_ascii=False, default=custom_encoder)
+
+print(f"Combined JSON file '{output_file_path}' created with {len(json_objects)} JSON objects.")
 
 
-#print(users[0]["favCharacters"])
-#with open("usersTest.json", "w", encoding="utf-8") as file:
-#    json.dump(users, file, indent=4, ensure_ascii=False)
+
+
+
+with open("anime.json", "r+", encoding="utf-8") as json_file:                      
+    anime = json.load(json_file)
+newAnime = anime.copy()
+for key in anime:
+    avg = (newAnime[key]["userRating"] / newAnime[key]["peopleRated"])
+    newAnime[key]["avgUserRating"] = avg
+
+with open("anime.json", "w", encoding="utf-8") as file:
+     json.dump(newAnime, file, indent=4, ensure_ascii=False)
+
